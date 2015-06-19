@@ -1,4 +1,6 @@
 <?php
+namespace CajitaArena;
+
 class Money
 {
     private $amount;
@@ -8,8 +10,8 @@ class Money
         if (is_numeric($amount)) {
             $this->amount = doubleval($amount);
         } else {
-            throw new Exception("Sólo se puede inicializar el dinero usando un "
-                . "número como parámetro.", 10101);
+            throw new \Exception("Sólo se puede inicializar el dinero usando "
+                . "un número como parámetro.", 10101);
         }
     }
 
