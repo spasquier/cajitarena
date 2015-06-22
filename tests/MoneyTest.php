@@ -1,7 +1,9 @@
 <?php
+namespace CajitaArena\Tests;
+
 use CajitaArena\Money;
 
-class MoneyTest extends PHPUnit_Framework_TestCase
+class MoneyTest extends \PHPUnit_Framework_TestCase
 {
     public function testCanBeInstantiated()
     {

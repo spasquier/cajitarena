@@ -6,7 +6,7 @@
   <title>Mi cajita de arena para practicar PHPUnit</title>
 </head>
 <body>
-  <h1>Hola Salvador</h1>
-  <p>Bienvenido a tu cajita de arena para practicar PHPUnit</p>
+  <h1>Hola Mundo</h1>
+  <p>Esta es una caja de arena para practicar PHPUnit</p>
 </body>
 </html>
